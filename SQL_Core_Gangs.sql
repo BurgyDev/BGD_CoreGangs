@@ -43,12 +43,12 @@ INSERT INTO `datastore_data` (`id`, `name`, `owner`, `data`) VALUES
 ('society_bloods', NULL, '{}'),
 ('society_vagos', NULL, '{}');
 
-INSERT INTO `jobs` (`name`, `label`, `whitelisted`) VALUES
-('ballas', 'Ballas', 0),
-('bloods', 'Bloods', 0),
-('famillies', 'Famillies', 0),
-('marabunta', 'Marabunta', 0),
-('vagos', 'Vagos', 0);
+INSERT INTO `jobs` (`name`, `label`) VALUES
+('ballas', 'Ballas'),
+('bloods', 'Bloods'),
+('famillies', 'Famillies'),
+('marabunta', 'Marabunta'),
+('vagos', 'Vagos');
 
 INSERT INTO `job_grades` (`job_name`, `grade`, `name`, `label`, `salary`, `skin_male`, `skin_female`) VALUES
 ('famillies', 0, 'soldato', 'Dealer', 200, 'null', 'null'),
